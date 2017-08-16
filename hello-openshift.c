@@ -89,6 +89,7 @@ void main (void) {
 		
 		delay(40);
 		clear_line(10);
+		clear_line(12);
 
 		s=0;
 		while(s<256) {

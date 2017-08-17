@@ -18,4 +18,4 @@ $(NAME).s: $(NAME).c
 	$(CC65) -Oi $(NAME).c -g --add-source
 
 clean:
-	rm $(NAME).nes labels.txt
+	rm $(NAME).nes $(NAME).s labels.txt

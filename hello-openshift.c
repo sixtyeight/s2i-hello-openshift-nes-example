@@ -85,7 +85,7 @@ void main (void) {
 	while (1) {
 		delay(40);
 		type_str(1, 10, (unsigned char *) "Red Hat [ OpenShift", 3); // square bracket is actually defined as dash symbol in tileset
-		type_str(1, 12, (unsigned char *) "s2i NES builder example [ OSSBIG", 3);
+		type_str(1, 12, (unsigned char *) "s2i NES builder example", 3);
 		
 		delay(40);
 		clear_line(10);
@@ -97,7 +97,5 @@ void main (void) {
 			scroll(s, 0);
 			++s;
 		}
-
-		delay(20);
 	}
 };
